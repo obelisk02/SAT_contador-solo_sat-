@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pantalla.css">
+    <link rel="stylesheet" href="https://michoacan.gob.mx/cdn/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://michoacan.gob.mx/cdn/css/estilos.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.4/css/all.min.css"> 
+
+     <!-- FAVICON -->
+    <link rel="shortcut icon" href="https://michoacan.gob.mx/cdn/img/favicon/favicon.ico"
+        type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://michoacan.gob.mx/cdn/img/favicon/appletouch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57"
+        href="https://michoacan.gob.mx/cdn/img/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="https://michoacan.gob.mx/cdn/img/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76"
+        href="https://michoacan.gob.mx/cdn/img/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="https://michoacan.gob.mx/cdn/img/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="https://michoacan.gob.mx/cdn/img/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="https://michoacan.gob.mx/cdn/img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="https://michoacan.gob.mx/cdn/img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="https://michoacan.gob.mx/cdn/img/favicon/apple-touch-icon-180x180.png" />
+
+        <!-- Font awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- https://michoacan.gob.mx/slider/ -->
+    <title>SEDECO</title>
+</head>
+<body>
+    <body onLoad="initClock()">
+    
+  <!--
+    <div class="parent">
+
+        <div class="div1"> 
+            <header>
+                <div class="navbar ">
+                    <div class="logo"> <a href="http://localhost/michoacan.gob.mx"><img src="https://michoacan.gob.mx/cdn/img/logo.svg" height="85px;" alt="logo"></a></div>
+                
+                     <ul class="links">
+                        <li> <a href="">Inicio</a> </li>
+                        <li> <a href="">Control</a> </li>
+                        <li> <a href="">Listado</a> </li>
+                    </ul>
+              
+                   <h2>Bienvenido</h2>
+        
+                    <a href="#" class="action_btn">Secretaria de Desarrollo Economico</a>
+        
+        
+                    https://codepen.io/jasonleewilson/pen/gPrxwX 
+                
+            </header>
+        </div>
+
+
+        <div class="div2"> 
+
+            <div id="timedate">
+                <a id="day">Monday</a>,
+                <a id="mon">January</a>
+                <a id="d">1</a><br />
+                <a id="y">0</a><br /> 
+                <a id="h">12</a> :
+                <a id="m">00</a>
+              </div>
+
+      </div>
+        
+        <div class="div3"> Turno | Mesa</div>
+        <div class="div4"> 06 |</div>
+        <div class="div5"> 01 </div>
+        <div class="div6"> 07 |</div>
+        <div class="div7"> 02 </div>
+        <div class="div8"> 08 |</div>
+        <div class="div9"> 03</div>
+        <div class="div10">Turno actual: 01 </div>
+        <div class="div11">Mesa: 01 </div>
+        </div>
+ 
+    -->
+
+        
+    <div id="cssportal-grid">
+        <div class="div1">
+            
+            <div class="navbar ">
+                <div class="logo"> <a href="http://localhost/michoacan.gob.mx"><img src="https://michoacan.gob.mx/cdn/img/logo.svg" height="85px;" alt="logo"></a></div>
+    
+        
+                <!--
+               <h2>Bienvenido</h2>
+                <a href="#" class="action_btn">Secretaria de Desarrollo Economico</a>
+                -->
+            </div>
+    </div>
+
+        <div class="div2">
+            <div id="timedate">
+                <a id="day">Monday</a>,
+                <a id="mon">January</a>
+                <a id="d">1</a><br />
+                <a id="h">12</a> :
+                <a id="m">00</a>
+              </div>
+        </div>
+        <div class="div3" id="div3">
+
+            <img src="../img/LogoSAT.png" alt="" class="contenedorImg" width="40%" >
+            <!-- <div id="videoContainer"></div> -->
+            <!--
+            <img src="../img/LogoIMSS.png" alt="" class="contenedorImg" width="80%">
+             -->
+        </div>
+       <!--
+         <div class="div4" id="div4"> <div class="centerFlex"> <p class="h2Titulo">Proximos turnos</p></div> 
+            <div class="spaceFlex"> <div class="h3Titulo">Turno</div> <div class="h3Titulo">Mesa</div> </div> </div>
+        <div class="div5 textStyle" > <div id="imss-2">div 5</div> <div class="divDerecha">Mesa 7</div>  </div>
+        <div class="div6 textStyle" > <div id="imss-3">div 6</div>  <div class="divDerecha">Mesa 7</div>  </div>
+        <div class="div7 textStyle" > <div id="imss-4">div 7</div> <div class="divDerecha">Mesa 7</div>  </div>
+       -->
+       <!-- <div class="div8" id="div8"><img src="../img/LogoSAT.png" alt="" class="contenedorImg" width="80%" ></div> -->
+        <div class="div9 textStyle" id="div9"> <div class="centerFlex"> <p class="h2Titulo">Proximos turnos</p> </div> 
+            <div class="spaceFlex">  </div> </div>
+        <div class="div10 textStyle"> <div id="sat-2">div10 </div> <div class="divDerecha"></div>  </div>
+        <div class="div11 textStyle"> <div id="sat-3">div11 </div> <div class="divDerecha"></div>  </div>
+        <div class="div12 textStyle"> <div id="sat-4">div12 </div> <div class="divDerecha"></div>  </div>
+
+        <!--
+        <div class="div13"> <div class="centerFlex"><p class="bigTitulo">Turno Actual</p></div>
+           <div class="spaceFlex2 bigTitulo2"> <div id="imss-1">div13 </div> <div class="divDerecha" >   Mesa 7</div></div>  
+        </div>
+-->
+        <div class="div14"> <div class="centerFlex"><p class="bigTitulo">Turno Actual</p></div>
+           <div class="spaceFlex2 bigTitulo2"> <div id="sat-1" >div13 </div> <div class="divDerecha" id="numMesa">   Mesa 7</div></div>  </div>
+
+       
+   
+    </div>
+    
+
+
+
+
+    <script src="https://www.michoacan.gob.mx/cdn/js/jquery3.6.0.min.js"></script>
+    <script src="https://www.michoacan.gob.mx/cdn/js/bootstrap.js"></script>
+    <script src="../js/controltotal.js"></script>
+    <script src="../js/controlPantalla.js"></script>
+
+    
+</body>
+</html>

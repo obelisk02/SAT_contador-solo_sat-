@@ -1,0 +1,242 @@
+
+
+#timedate {
+background-color:#2d2d2d;
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  /*text-align:left; */
+  
+  margin: auto;
+  color:#fff;
+  border-left: 3px solid #ed1f24;
+  padding-left: 10px;
+}
+
+#h,#m {
+  
+}
+
+
+
+/*  Viejo Screen
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 6 / 5; }
+    .div2 { grid-area: 1 / 5 / 2 / 7; }
+    .div3 { grid-area: 2 / 5 / 3 / 7; }
+    .div4 { grid-area: 3 / 5 / 4 / 6; }
+    .div5 { grid-area: 3 / 6 / 4 / 7; }
+    .div6 { grid-area: 4 / 5 / 5 / 6; }
+    .div7 { grid-area: 4 / 6 / 5 / 7; }
+    .div8 { grid-area: 5 / 5 / 6 / 6; }
+    .div9 { grid-area: 5 / 6 / 6 / 7; }
+    .div10 { grid-area: 6 / 1 / 7 / 4; }
+    .div11 { grid-area: 6 / 4 / 7 / 7; }
+
+*/
+    
+
+    #cssportal-grid {
+      display: grid;
+      grid-template-rows: repeat(7, 1fr);
+      grid-template-columns: repeat(6, 1fr);
+      gap: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .div1 {
+      grid-area: 1 / 1 / 2 / 4;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .div2 {
+      grid-area: 1 / 4 / 2 / 7;
+      
+    }
+    .div3 {
+      grid-area: 2 / 1 / 6 / 5;  
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+
+
+    }
+    .div4 {
+      grid-area: 2 / 2 / 3 / 4;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Alinea al centro verticalmente */
+      
+      border: 0.5px solid rgba(0, 0, 0, 0.1) ; 
+      background-color: rgba(142, 193, 206, 0.3);
+    }
+    .div5 {
+      grid-area: 3 / 2 / 4 / 4;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      border: 0.5px solid rgba(0, 0, 0, 0.1) ;  
+      background-color: rgba(142, 193, 206, 0.1);
+    }
+    .div6 {
+      grid-area: 4 / 2 / 5 / 4;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      border: 0.5px solid rgba(0, 0, 0, 0.1) ; 
+      background-color: rgba(142, 193, 206, 0.1);
+    }
+    .div7 {
+      grid-area: 5 / 2 / 6 / 4;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      border: 0.5px solid rgba(0, 0, 0, 0.1) ; 
+      background-color: rgba(142, 193, 206, 0.1);
+    }
+    .div8 {
+      grid-area: 2 / 4 / 6 / 5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+    
+    }
+    .div9 {
+      grid-area: 2 / 5 / 3 / 7;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Alinea al centro verticalmente */
+
+      border: 0.5px solid rgba(0, 0, 0, 0.1) ;  
+      background-color: rgba(142, 193, 206, 0.3);
+    }
+    .div10 {
+      grid-area: 3 / 5 / 4 / 7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      border: 0.5px solid rgba(0, 0, 0, 0.1) ; 
+      background-color: rgba(142, 193, 206, 0.1);
+    }
+    .div11 {
+      grid-area: 4 / 5 / 5 / 7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      border: 0.5px solid rgba(0, 0, 0, 0.1) ; 
+      background-color: rgba(142, 193, 206, 0.1);
+    }
+    .div12 {
+      grid-area: 5 / 5 / 6 / 7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      border: 0.5px solid rgba(0, 0, 0, 0.1) ; 
+      background-color: rgba(142, 193, 206, 0.1);
+    }
+    .div13 {
+      grid-area: 6 / 1 / 8 / 4;
+      background-color: #115161d6;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Alinea al centro verticalmente */
+    
+      padding-top: 5%;
+    }
+    .div14 {
+      grid-area: 6 / 1 / 8 / 7;
+      background-color: #0b4f6c;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Alinea al centro verticalmente */
+      
+      /*border-left: 1px white solid; */
+      padding-top: 5%;
+     
+    }
+
+    .contenedorImg {
+      max-width: 100%;
+      height: auto; /* Esto garantiza que la relación de aspecto de la imagen se mantenga */
+      
+    }
+
+    .divDerecha {
+      
+    }
+
+    .centerFlex{
+      display: flex;
+      justify-content: center;
+     
+    }
+
+    .spaceFlex{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+
+    .spaceFlex2{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      
+    }
+
+    .h2Titulo {
+      color: cadetblue !important;
+      font-size: 3vw;
+      font-family: "Gibson", sans-serif;
+      font-weight: 800;
+      
+    }
+
+    .h3Titulo {
+      color: cadetblue !important;
+      font-size: 2rem;
+      font-family: "Gibson", sans-serif;
+      font-weight: 400;
+      
+    }
+
+    .textStyle {
+      color: rgb(0, 0, 0) !important;
+      font-size: 5vw;
+      font-family: "Gibson", sans-serif;
+      font-weight: 800;
+
+      
+    }
+
+    .bigTitulo {
+      color: rgba(255, 255, 255, 0.51) !important;
+      font-size: 5vw;
+      font-family: "Gibson", sans-serif;
+      font-weight: 1000;
+      
+    }
+
+    .bigTitulo2 {
+      color: white;
+      font-size: 7vw;
+      font-family: "Gibson", sans-serif;
+      font-weight: 800;
+      
+    }
